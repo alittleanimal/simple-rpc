@@ -36,7 +36,7 @@ public class CalculatorRemoteImpl implements Calculator {
             Object response = objectInputStream.readObject();
 
             log.debug("response is {}", response);
-            System.out.println("request is " + response.toString());
+            System.out.println("response is " + response.toString());
 
 
             if (response instanceof Integer) {
